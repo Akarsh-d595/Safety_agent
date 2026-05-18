@@ -1,0 +1,43 @@
+name: emergency_safety_app
+description: AI-based Emergency Safety System for Android
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Speech recognition
+  speech_to_text: ^6.6.0
+
+  # GPS location
+  geolocator: ^11.0.0
+
+  # Launch URLs and phone calls
+  url_launcher: ^6.2.6
+
+  # Runtime permissions
+  permission_handler: ^11.3.1
+
+  # HTTP requests (API-ready)
+  http: ^1.2.1
+
+  # State management
+  provider: ^6.1.2
+
+  # Local key-value storage (settings persistence)
+  shared_preferences: ^2.2.3
+
+  # Icons
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
