@@ -12,7 +12,7 @@ export default defineConfig({
       // Proxy /api/* → FastAPI backend (localhost:8000) during development.
       // On a phone, set VITE_API_URL=http://<LAN-IP>:8000 in .env instead.
       '/api': {
-        target: 'http://localhost:8000',
+        target: 'https://safety-backend-python.onrender.com',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
       },
